@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            background-color: #006400; /* Dark green */
+            font-family: Arial, sans-serif; /* Choose a suitable font */
+        }
+
+        nav {
+            background-color: #6B8E23; /* Olive green */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Add display: flex */
+            justify-content: center; /* Center the items */
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: #000000; /* Consistent color */
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center boxes horizontally */
+            margin-top: 50px;
+        }
+
+        .box {
+            background-color: #6B8E23; /* Olive green */
+            border: 2px solid #000000; /* Optional border */
+            width: 300px; /* Adjust width as needed */
+            height: 200px;
+            margin: 20px; /* Smaller margins for better spacing */
+            padding: 20px;
+        }
+
+        .slideshow {
+            background-color: #f0f0f0; /* Original white color retained */
+            height: 300px; /* Adjust height as needed */
+            margin-top: 20px;
+            padding: 50px;
+        }
+
+        footer {
+            background-color: #000000; /* Change background color as needed */
+            color: #ffffff; /* Change text color as needed */
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="box-container">
+        <div class="box">
+            This will be the Portfolio
+        </div>
+
+        <div class="box">
+            This will be the LinkedIn
+        </div>
+
+        <div class="box">
+            This will be the Resume
+        </div>
+    </div>
+
+    <div class="slideshow">
+        This will be the slideshow area.
+    </div>
+
+    <footer>
+        &copy; 2023 My Website. All rights reserved.
+    </footer>
+</body>
+</html>
